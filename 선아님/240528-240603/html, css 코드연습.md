@@ -1,4 +1,4 @@
-# html, css 코드연습
+# html, css 코드
 
 ## html
 h1 {
