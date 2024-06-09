@@ -1,4 +1,4 @@
-# html, css 코드엽습
+# html, css 코드연습
 
 ## 완성
 
