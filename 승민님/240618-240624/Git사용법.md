@@ -13,7 +13,7 @@ git init
 작업 트리에서 깃의 상태를 확인할 수 있는 명령어.
 
 ```
-git staus
+git status
 ```
 
 ![자료1](/LectureStudyRecap/승민님/240618-240624/image/gitstauts.png)
@@ -80,4 +80,60 @@ git remote remove origin
 ```
 // git push [name] [branch]
 git push origin main
+```
+
+### 기타 깃 명령어
+
+1. 브랜치 생성
+
+```
+//git branch [브랜치명]
+git branch test
+```
+
+2. 해당 브랜치로 이동
+
+```
+// git checkout [브랜치명]
+git checkout test
+```
+
+3. 브랜치를 생성하고 해당 브랜치로 바로 이동
+
+```
+// git branch -b [브랜치명]
+git branch -b test
+```
+
+4. 원하는 브랜치로 이동했는지 확인
+
+```
+git branch
+```
+
+5. 모든 브랜치 확인
+
+```
+git branch -a
+```
+
+6. 원하는 브랜치로 push 하여 원격 서버에 전송
+
+```
+// git push origin [브랜치명]
+git push origin test
+```
+
+7. 브랜치 삭제
+
+```
+// git branch -d [브랜치명]
+git branch -d test
+```
+
+8. 현재 브랜치에 다른 브랜치 수정사항 병합
+
+```
+// git merge [다른 브랜치명]
+git merge test2
 ```
